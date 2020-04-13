@@ -1,4 +1,4 @@
-baseURL = "http://abcx.org/"
+baseURL = "https://upbeat-lichterman-1544d8.netlify.com/"
 googleAnalytics = "UA-123-45"
 languageCode = "en-us"
 theme = "bloggeri"

@@ -2,11 +2,11 @@
 label: Main Menu
 hide_body: false
 fields:
-- name: men
+- name: My_Men
   type: select
-  default: ''
+  default: Sports
   config:
-    required: false
+    required: true
     options:
     - Sports
     - Office
@@ -15,4 +15,8 @@ fields:
       section: 
       file: 
       path: 
-  label: Men
+  label: My Men
+  description: My Men
+  showOnly:
+    field: men
+    value: Sports

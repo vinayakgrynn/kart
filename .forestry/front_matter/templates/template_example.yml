@@ -1,4 +1,21 @@
 ---
 label: Template_example
 hide_body: false
-fields: []
+fields:
+- name: header_section
+  type: blocks
+  label: Header Section
+  template_types: []
+  config:
+    min: 
+    max: 
+  description: Header Section
+- name: menu_section
+  type: blocks
+  template_types:
+  - main-menu
+  config:
+    min: 
+    max: 
+  label: Menu Section
+  description: Menu Section

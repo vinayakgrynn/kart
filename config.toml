@@ -4,32 +4,32 @@ languageCode = "en-us"
 theme = "bloggeri"
 title = "Grynn's template"
 [[menu.main]]
-name = "Kids"
-url = "/Kids"
-weight = 3
-[[menu.main]]
 name = "Office"
 parent = "Women"
-url = "/Office"
+url = "Office"
 weight = 2
 [[menu.main]]
 name = "Sports"
 parent = "Women"
-url = "/Sports"
+url = "Sports"
 weight = 1
+[[menu.main]]
+name = "Office"
+parent = "Men"
+url = "Office"
+weight = 2
+[[menu.main]]
+name = "Kids"
+url = "/Kids"
+weight = 3
 [[menu.main]]
 name = "Women"
 url = "/Women"
 weight = 2
 [[menu.main]]
-name = "Office"
-parent = "Men"
-url = "/Office"
-weight = 2
-[[menu.main]]
 name = "Sports"
 parent = "Men"
-url = "/Sports"
+url = "Sports"
 weight = 1
 [[menu.main]]
 name = "Men"

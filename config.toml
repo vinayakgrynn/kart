@@ -16,6 +16,7 @@ weight = 1
 [[menu.main]]
 name = "Office"
 parent = "Men"
+identifier = "sub"
 url = "/Men/Office/"
 weight = 2
 [[menu.main]]
@@ -29,6 +30,7 @@ weight = 2
 [[menu.main]]
 name = "Sports"
 parent = "Men"
+identifier = "sub"
 url = "/Men/Sports/"
 weight = 1
 [[menu.main]]

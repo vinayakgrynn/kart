@@ -1,7 +1,6 @@
 ---
-title: "Thankyou"
-date: 2020-04-11T15:34:28+02:00
-draft: true
----
+title: Thankyou
+date: 2020-04-11T13:34:28.000+00:00
 
+---
 ## thankyou.md

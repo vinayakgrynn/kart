@@ -1,5 +1,5 @@
 +++
 [menu]
 [menu.main]
-parent = “sub”
+parent = "sub"
 +++

@@ -32,6 +32,7 @@ parent = "Men"
 url = "/Men/Sports/"
 weight = 1
 [[menu.main]]
+hasChildren = true
 name = "Men"
 weight = 1
 [[menu.social]]

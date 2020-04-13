@@ -1,0 +1,39 @@
+baseURL = "http://abcx.org/"
+languageCode = "en-us"
+title = "Grynn's template"
+theme = "bloggeri"
+googleAnalytics = "UA-123-45"
+
+[params]
+    description = "My site description"
+    
+    
+[[menu.main]]
+      name = "Cart"
+      url = "/cart"
+      urxl = "/blog"
+
+[[menu.main]]
+      name = "Blogs"
+      urxl = "urxl"
+      url = "/blog"
+      
+[[menu.main]]
+      name = "Product"
+      url = "/products"
+      text_menu = "text_menu"
+  
+[[menu.social]]
+    name = "GitHub"
+    url = "https://github.com/pakstech"
+    pre = "<i class='fab fa-github'></i>"
+
+[[menu.social]]
+    name = "YouTube"
+    url = "https://www.youtube.com/channel/UCg_e3UBPs-BxPo_jVg1gGOQ"
+    pre = "<i class='fab fa-youtube'></i>"
+
+[[menu.social]]
+    name = "Twitter"
+    url = "https://twitter.com/pakstech"
+    pre = "<i class='fab fa-twitter'></i>"  

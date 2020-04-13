@@ -1,0 +1,19 @@
+<h1>----------------------list.html start-----------------------------------</h1>
+<h1>this is at the top of the /themes/_default/list.html xxx</h1>
+<h1>----------------------list.html end  -----------------------------------</h1>
+{{ define "main" }}
+<div class="container">
+    <div class="section">
+        <div class="content">
+            <h1>{{ .Title }}</h1>
+            {{ .Content }}
+            {{ range .Pages }}
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{ end }}
+<h1>----------------------list.html start-----------------------------------</h1>
+<h1>this is at the bottom of the /themes/_default/list.html</h1>
+<h1>----------------------list.html end  -----------------------------------</h1>

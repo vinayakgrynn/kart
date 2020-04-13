@@ -1,0 +1,17 @@
+<footer class="footer">
+    <h1>-----------------------------------------------------------------</h1>
+    <h1>this is at the top of the /themes/layouts/partials/footer.html</h1>
+    <h1>-----------------------------------------------------------------</h1>
+    <div class="container">
+        <div class="columns has-text-centered">
+            {{ range .Site.Menus.footer }}
+            <div class="column is-narrow">
+                <a href="{{ .URL }}" class="">{{ .Name }}</a>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+    <h1>-----------------------------------------------------------------</h1>
+    <h1>this is at the bottom of the /themes/layouts/partials/footer.html</h1>
+    <h1>-----------------------------------------------------------------</h1>
+</footer>

@@ -1,4 +1,16 @@
 ---
 label: Main Menu
 hide_body: false
-fields: []
+fields:
+- name: men
+  type: select
+  default: ''
+  config:
+    required: false
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Men

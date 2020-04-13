@@ -16,7 +16,7 @@ weight = 1
 [[menu.main]]
 name = "Office"
 parent = "Men"
-url = "Office"
+url = "/Men/Office/"
 weight = 2
 [[menu.main]]
 name = "Kids"
@@ -33,7 +33,6 @@ url = "/Men/Sports/"
 weight = 1
 [[menu.main]]
 name = "Men"
-url = "/Men"
 weight = 1
 [[menu.social]]
 name = "YouTube"

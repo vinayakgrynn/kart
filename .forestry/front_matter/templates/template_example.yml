@@ -1,6 +1,6 @@
 ---
 label: Template_example
-hide_body: false
+hide_body: true
 fields:
 - name: header_section
   type: blocks

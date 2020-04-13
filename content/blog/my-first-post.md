@@ -1,9 +1,8 @@
 ---
-title: "My First Post"
-date: 2020-04-11T10:44:45+02:00
-draft: true
----
+title: My First Post
+date: 2020-04-11T08:44:45.000+00:00
 
+---
 # H1 level title
 
 This is a paragraph.
